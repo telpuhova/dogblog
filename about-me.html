@@ -2,8 +2,45 @@
 <html>
   <head>
     <title>About Max</title>
+    <style>
+      ul {
+        list-style-type: none;
+        background-color: #738a8c;
+        border: 1px solid #555;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 3%;
+        position: fixed;
+        overflow: hidden;
+      }
+      li {
+        float: left;
+      }
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      li:last-child {
+        border-bottom: none;
+      }
+    </style>
+
   </head>
   <body>
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li class="last-child">
+          <a href="about-me.html">About Max</a>
+        </li>
+      </ul>
+    </nav>
     <h1>Some facts about my Chihuahua.</h1>
     <ul>
       <li><strong>Color</strong>: Tan White.</li>
