@@ -30,3 +30,17 @@ img.special {
   margin: 15px;
   float: right;
 }
+
+.btn {
+  float: right;
+}
+
+.black-background {
+  background-color: black;
+  color: white;
+}
+
+.white-background {
+  background-color: inherit;
+  color: inherit;
+}
